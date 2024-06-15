@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+let z=4**2
+echo $z
+
+# when '=' is used without spaces, it serves as an assignment operator e.g z=11
+# but when used with spaces e.g "$string1" = "$string2", it serves as a comparison operator
+
+# highest common factor program
+# a dividend is divided by a divisor, and the result is the quotient

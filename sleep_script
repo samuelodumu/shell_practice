@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script displays the minute count, followedd by "still sleeping..."
+# indefinitely until a keyboard interrupt (Ctrl-c).
+# Useful for keeping servers connected when idle for a long while
+minutes=0
+while true; do
+        echo "$minutes still sleeping..."
+        ((minutes++))
+        sleep 60 # sleep for 60 seconds
+done
